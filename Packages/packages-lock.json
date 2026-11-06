@@ -154,7 +154,7 @@
       "dependencies": {
         "com.unity.render-pipelines.universal": "12.1.2"
       },
-      "hash": "27acaf034d2dc238ef520ac4a811ae825abc3d0c"
+      "hash": "271526bce2b29891c0397297bc524a2000d0f134"
     },
     "com.unity.lego.modelimporter": {
       "version": "https://github.com/ESCG-Lewes/com.unity.lego.modelimporter.git",
@@ -163,9 +163,9 @@
       "dependencies": {
         "com.unity.render-pipelines.universal": "12.1.2",
         "com.unity.ugui": "1.0.0",
-        "com.unity.lego.materials": "3.0.1"
+        "com.unity.lego.materials": "3.0.2"
       },
-      "hash": "6515d7624eb2572df2ccbc742da61780e8751a48"
+      "hash": "cecec2f2ef1492c2f19eef02652dad9f11af94eb"
     },
     "com.unity.mathematics": {
       "version": "1.2.6",
