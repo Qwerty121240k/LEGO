@@ -27,7 +27,7 @@ namespace Unity.LEGO.Behaviours
         {
             m_ConnectedBricks = connectedBricks;
 
-            m_RigidBody.velocity = transform.forward * velocity;
+            m_RigidBody.linearVelocity = transform.forward * velocity;
 
             m_RigidBody.useGravity = useGravity;
 
@@ -109,7 +109,7 @@ namespace Unity.LEGO.Behaviours
                 }
                 else
                 {
-                    transform.rotation = Quaternion.LookRotation(m_RigidBody.velocity);
+                    transform.rotation = Quaternion.LookRotation(m_RigidBody.linearVelocity);
                 }
             }
         }

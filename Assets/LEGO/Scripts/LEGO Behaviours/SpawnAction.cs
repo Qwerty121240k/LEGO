@@ -899,7 +899,7 @@ namespace Unity.LEGO.Behaviours.Actions
                             var currentBrickVelocity = m_AnimatedBricks[i].GetComponent<VelocityTracker>().GetVelocity();
 
                             var rigidBody = m_BrickCopies[i].Brick.gameObject.AddComponent<Rigidbody>();
-                            rigidBody.velocity = currentBrickVelocity;
+                            rigidBody.linearVelocity = currentBrickVelocity;
                             rigidBody.WakeUp();
 
                             Destroy(m_AnimatedBricks[i].gameObject);
