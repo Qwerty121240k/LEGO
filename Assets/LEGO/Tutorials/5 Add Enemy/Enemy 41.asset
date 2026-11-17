@@ -57,14 +57,24 @@ MonoBehaviour:
     m_Untranslated: Add a Look At brick
   m_Paragraphs:
     m_Items:
-    - m_Type: 7
+    - m_Type: 9
       Title:
         m_Untranslated: 
       Text:
         m_Untranslated: 
+      m_CodeSample: 
+      m_PostInstructionImage: {fileID: 0}
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
+      m_VideoUrl: 
       m_Video: {fileID: 32900000, guid: 21042fd7b48d344d99a305f8c1fe0f0a, type: 3}
+      m_Media:
+        m_ContentType: 1
+        m_Image: {fileID: 0}
+        m_VideoClip: {fileID: 32900000, guid: 21042fd7b48d344d99a305f8c1fe0f0a, type: 3}
+        m_Url: 
+        m_AutoStart: 1
+        m_Loop: 1
       m_CriteriaCompletion: 0
       m_Criteria:
         m_Items: []
@@ -74,6 +84,7 @@ MonoBehaviour:
         - m_SelectorType: 1
           m_ViewType:
             m_TypeName: 
+          m_FocusEditorWindow: 0
           m_EditorWindowType:
             m_TypeName: UnityEditor.ProjectBrowser, UnityEditor.CoreModule, Version=0.0.0.0,
               Culture=neutral, PublicKeyToken=null
@@ -85,6 +96,7 @@ MonoBehaviour:
         - m_SelectorType: 1
           m_ViewType:
             m_TypeName: 
+          m_FocusEditorWindow: 0
           m_EditorWindowType:
             m_TypeName: UnityEditor.SceneView, UnityEditor.CoreModule, Version=0.0.0.0,
               Culture=neutral, PublicKeyToken=null
@@ -104,9 +116,19 @@ MonoBehaviour:
       Text:
         m_Untranslated: "The bird shoots, but it could shoot more accurately. \n\nLet\u2019s
           make the bird look at the player so that it can target them better. "
+      m_CodeSample: 
+      m_PostInstructionImage: {fileID: 0}
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
+      m_VideoUrl: 
       m_Video: {fileID: 0}
+      m_Media:
+        m_ContentType: 0
+        m_Image: {fileID: 0}
+        m_VideoClip: {fileID: 0}
+        m_Url: 
+        m_AutoStart: 1
+        m_Loop: 1
       m_CriteriaCompletion: 0
       m_Criteria:
         m_Items: []
@@ -124,9 +146,19 @@ MonoBehaviour:
       Text:
         m_Untranslated: Select the <b>Look At</b> action brick and drag it into the
           Scene view.
+      m_CodeSample: 
+      m_PostInstructionImage: {fileID: 0}
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
+      m_VideoUrl: 
       m_Video: {fileID: 0}
+      m_Media:
+        m_ContentType: 0
+        m_Image: {fileID: 0}
+        m_VideoClip: {fileID: 0}
+        m_Url: 
+        m_AutoStart: 1
+        m_Loop: 1
       m_CriteriaCompletion: 0
       m_Criteria:
         m_Items:
@@ -163,6 +195,7 @@ MonoBehaviour:
   DoneButton:
     m_Untranslated: Done
   m_CompletedSound: {fileID: 8300000, guid: 93fbb109633e844259ea828442bda0cb, type: 3}
+  m_FaqEntries: []
   m_AutoAdvance: 1
   Showing:
     m_PersistentCalls:
